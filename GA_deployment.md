@@ -4,8 +4,10 @@
 ## 3.- Enable required APIs
 We can enable these APIs using GC Console or gcloud cli
 ### gcloud cli
-`gcloud services enable \
+```
+gcloud services enable \
   run.googleapis.com \
   artifactregistry.googleapis.com \
   cloudbuild.googleapis.com \
-  logging.googleapis.com `
+  logging.googleapis.com
+```
