@@ -92,6 +92,9 @@ gcloud iam service-accounts add-iam-policy-binding "$SA_EMAIL" \
 
 ## 10.- Put Secrets in Github repo environment secrets and vars
 `WIF_PROVIDER` From IAM -> Workload Identity Federation -> <your-pool-name> -> Providers -> ignore https: and start with projects
+
 `WIF_SERVICE_ACCOUNT` From IAM -> Service Accounts -> <your-sa> -> email
+
 `GCP_PROJECT_ID`
+
 `GCP_REGION`
