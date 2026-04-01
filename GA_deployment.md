@@ -89,3 +89,9 @@ gcloud iam service-accounts add-iam-policy-binding "$SA_EMAIL" \
   --member="principalSet://iam.googleapis.com/projects/${PROJECT_NUMBER}/locations/global/workloadIdentityPools/\
     ${POOL_ID}/attribute.repository/${GITHUB_OWNER}/${GITHUB_REPO}"
 ```
+
+## 10.- Put Secrets in Github repo environment secrets and vars
+`WIF_PROVIDER` From IAM -> Workload Identity Federation -> <your-pool-name> -> Providers -> ignore https: and start with projects
+`WIF_SERVICE_ACCOUNT` From IAM -> Service Accounts -> <your-sa> -> email
+`GCP_PROJECT_ID`
+`GCP_REGION`
