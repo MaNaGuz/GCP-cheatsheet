@@ -1,4 +1,4 @@
-# Deploy project using Github Actions using --image deployment
+# Deploy project to GCP Cloud Run using Github Actions using --image deployment
 ## 1.- Create a Project
 ## 2.- Link a billing account to the project
 ## 3.- Enable required APIs
