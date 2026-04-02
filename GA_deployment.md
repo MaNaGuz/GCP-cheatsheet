@@ -1,4 +1,4 @@
-# Deploy project using Github Actions
+# Deploy project using Github Actions using --image deployment
 ## 1.- Create a Project
 ## 2.- Link a billing account to the project
 ## 3.- Enable required APIs
@@ -98,3 +98,14 @@ gcloud iam service-accounts add-iam-policy-binding "$SA_EMAIL" \
 `GCP_PROJECT_ID`
 
 `GCP_REGION`
+
+## 11.- Assert these roles are enabled for SA
+- Artifact Registry Writer
+- Cloud Build Editor
+- Cloud Run Admin
+- Service Account User
+- Service Usage Consumer
+- Workload Identity User
+
+## 12.- Deploy with Github Actions
+Verify deployment is successful
